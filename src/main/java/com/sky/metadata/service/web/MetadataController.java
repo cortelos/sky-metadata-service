@@ -31,7 +31,7 @@ public class MetadataController {
     @PostMapping
     public void add(@RequestBody Movie movie) {
 
-        Movie savedMovie = repository.save(movie);
+        Movie savedMovie = repository.save(movie)
 
         log.info("Added movie {}", savedMovie);
     }
