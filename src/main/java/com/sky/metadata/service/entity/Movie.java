@@ -1,5 +1,7 @@
 package com.sky.metadata.service.entity;
 
+import java.math.BigDecimal;
+
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
@@ -9,8 +11,17 @@ public class Movie {
 
     private @Id @GeneratedValue Long id;
     private String name;
+    private BigDecimal price;
 
     public Movie() {
+    }
+
+    public BigDecimal getPrice() {
+        return price;
+    }
+
+    public void setPrice(BigDecimal price) {
+        this.price = price;
     }
 
     public Movie(String name) {
