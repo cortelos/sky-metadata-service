@@ -18,8 +18,10 @@ pipeline {
                 sh 'docker run -d --name sky_metadata_service_staging -p 9000:8080 sky/metadata-service'
             }
         }
-        stage('Production Deploy Approval'){
-            input "Deploy to production?"
+        stage('Production Deploy Approval') {
+            steps {
+                input "Deploy to production?"
+            }
         }
         stage('Run in Production') {
             steps {
