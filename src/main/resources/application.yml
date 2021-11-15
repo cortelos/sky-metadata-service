@@ -1,9 +1,1 @@
 server.servlet.context-path: "/"
-
-spring:
-  datasource:
-    username: "root"
-    password: "changeme"
-    url: "jdbc:mysql://localhost:3306/sky"
-    driverClassName: "com.mysql.cj.jdbc.Driver"
-  jpa.hibernate.ddl-auto: update

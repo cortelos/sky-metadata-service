@@ -11,7 +11,7 @@
 
 	<groupId>com.sky.metadata</groupId>
 	<artifactId>service</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0</version>
 	<name>Metadata Service</name>
 	<description>Demo project to manage Metadata</description>
 
@@ -30,9 +30,9 @@
 		</dependency>
 
 		<dependency>
-            <groupId>mysql</groupId>
-            <artifactId>mysql-connector-java</artifactId>
-        </dependency>
+			<groupId>com.h2database</groupId>
+			<artifactId>h2</artifactId>
+		</dependency>
 
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
