@@ -11,7 +11,7 @@ public class Movie {
 
     private @Id @GeneratedValue Long id;
     private String name;
-    private BigDecimal price;
+    //private BigDecimal price;
 
     public Movie() {
     }
@@ -20,13 +20,13 @@ public class Movie {
         return price;
     }
 
-    public void setPrice(BigDecimal price) {
+    /*public void setPrice(BigDecimal price) {
         this.price = price;
     }
 
     public Movie(String name) {
         this.name = name;
-    }
+    }*/
 
     public Long getId() {
         return id;
