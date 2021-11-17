@@ -16,17 +16,17 @@ public class Movie {
     public Movie() {
     }
 
-    public BigDecimal getPrice() {
+    /*public BigDecimal getPrice() {
         return price;
     }
 
-    /*public void setPrice(BigDecimal price) {
+    public void setPrice(BigDecimal price) {
         this.price = price;
-    }
+    }*/
 
     public Movie(String name) {
         this.name = name;
-    }*/
+    }
 
     public Long getId() {
         return id;
